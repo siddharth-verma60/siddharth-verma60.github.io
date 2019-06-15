@@ -47,6 +47,9 @@ ul.side-nav.fixed a {
 	line-height: 100%;
 	padding: 10px 0 12px;
 }
+#slide-out.side-nav {
+	overflow-y: scroll;
+}
 ul.table-of-contents li.logo a.active,
 ul.table-of-contents li.logo a:hover {
 	border: none;
@@ -102,7 +105,7 @@ h3 {
 	height: 100vh;
 }
 #intro.section {
-	background: url(../../static/img/siddharth-verma.jpg) no-repeat top center/cover;
+	background: url(../../static/img/siddharth-verma.jpg) no-repeat right center/cover;
 	
 }
 #intro.section .container {
@@ -408,7 +411,7 @@ small { display: none;}
 	}
 	i.mdi-navigation-close.right {
 	  position: relative;
-	  bottom: 35px;
+	  /*bottom: 35px;*/
 	}
 	#contact a:not(.btn-floating) {
     text-align: center;
