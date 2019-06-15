@@ -50,6 +50,13 @@ ul.side-nav.fixed a {
 #slide-out.side-nav {
 	overflow-y: scroll;
 }
+#slide-out.side-nav a{
+	box-sizing: content-box;
+	color: #444;
+	display: block;
+	line-height: 100%;
+	padding: 10px 0 12px;
+}
 ul.table-of-contents li.logo a.active,
 ul.table-of-contents li.logo a:hover {
 	border: none;
