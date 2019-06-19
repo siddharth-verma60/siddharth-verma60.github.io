@@ -405,6 +405,9 @@ small { display: none;}
 	background-position: top center;
 	background-size: cover;
 	}
+	#experience .card-title{
+    margin-left: 0px;
+	}
 }
 @media (max-width: 600px) and (orientation: portrait){
 	#intro.section {
