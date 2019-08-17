@@ -9,33 +9,33 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrewborstein/portfolio.git"
+    "url": "https://github.com/siddharth-verma60/siddharth-verma60.github.io.git"
   },
   "keywords": [
     "github",
     "portfolio",
     "resume",
-    "andrewborstein.com"
+    "siddharth-verma.com"
   ],
-  "author": "andrew borstein",
+  "author": "Siddharth Verma",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andrewborstein/portfolio/issues"
+    "url": "https://github.com/siddharth-verma60/siddharth-verma60.github.io/issues"
   },
-  "homepage": "https://github.com/andrewborstein/portfolio",
+  "homepage": "https://github.com/siddharth-verma60/siddharth-verma60.github.io",
   "devDependencies": {
     "connect": "^3.7.0",
-    "grunt": "^0.4.5",
+    "grunt": "^1.0.4",
     "grunt-contrib-connect": "^2.0.0",
     "grunt-contrib-jade": "^0.15.0",
-    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-watch": "^1.1.0",
     "grunt-jade-tasks": "0.0.0",
     "jade": "^1.11.0",
     "serve-static": "^1.14.1"
   },
   "dependencies": {
-    "acorn": "^4.0.3",
-    "clean-css": "^3.4.22",
+    "acorn": "^4.0.13",
+    "clean-css": "^4.2.1",
     "uglify-js": "^2.8.29",
     "with": "^5.1.1"
   }
