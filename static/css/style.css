@@ -401,7 +401,7 @@ small { display: none;}
 }
 @media (max-width: 992px) and (orientation: portrait){
 	#intro.section {
-	background: url(../../static/img/siddharth-verma1.jpg) no-repeat;
+	background: url(../../static/img/siddharth-verma-small.jpg) no-repeat;
 	background-position: top center;
 	background-size: cover;
 	}
@@ -411,7 +411,7 @@ small { display: none;}
 }
 @media (max-width: 600px) and (orientation: portrait){
 	#intro.section {
-	background: url(../../static/img/siddharth-verma1.jpg) no-repeat;
+	background: url(../../static/img/siddharth-verma-small.jpg) no-repeat;
 	background-position: top center;
 	background-size: cover;
 	}

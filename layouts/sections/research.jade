@@ -10,26 +10,48 @@ section#research.section.scrollspy
         p My primary research interest focuses on:
         ul
           li Automating the design of neural networks by employing #[strong neural architecture search] techniques such as evolutionary computation and reinforcement learning.
-          li Investigating #[strong creative artificial intelligence] methods to analyse ways in which this intelligence can aid humans in creative endeavours significantly.
+          li Investigating #[strong creative computer vision] methods to analyse ways in which this intelligence can aid humans in creative endeavours significantly.
         br
-        p Building a successful ML product requires the implementation of complex multi-faceted tasks including understanding the business use-case, organising data, modelling, deploying and monitoring. Modelling ML (particularly deep learning) models often become challenging as designing the neural network architecture involves a lot of manual tuning in deciding the type of layers, the objective functions, and hyperparameters like the learning rate, the number of layers and activations. The network often breaks during the process and we have to involve human bias in deciding the best model. This issue can potentially be tackled by applying techniques in automated machine learning (AutoML) that automates the process of applying machine learning. The neural architecture search (NAS) is one of its subfields that includes techniques to design neural nets using evolutionary algorithms (neuro-evolution) and reinforcement learning. The core idea is that the NAS algorithm picks up the basic components required to build a neural network and then improves its performance by evolving the network’s architecture. Now, this is useful as it enables the discovery of architectures far more complicated than what humans may think to try, and can optimize the networks for specific goals. Therefore, we can make it possible for non-experts to build deep learning models as per their use.
+        p Building a successful ML product requires the implementation of complex multi-faceted tasks including organising data, modelling, deploying and monitoring. Modelling ML (particularly deep learning) models often become challenging as designing the neural network architecture involves a lot of manual tuning in deciding the type of layers, the objective functions, and hyperparameters like the learning rate, the number of layers and activations. The network often breaks during the process and we have to involve human bias in deciding the best model. This issue can potentially be tackled by applying techniques in automated machine learning (AutoML) that automates the process of applying machine learning. The neural architecture search (NAS) is one of its subfields that includes techniques to design neural nets using evolutionary algorithms (neuro-evolution) and reinforcement learning. The core idea is that the NAS algorithm picks up the basic components required to build a neural network and then improves its performance by evolving the network’s architecture. Now, this is useful as it enables the discovery of architectures far more complicated than what humans may think to try, and can optimize the networks for specific goals. Therefore, we can make it possible for non-experts to build deep learning models as per their use.
         br
-        p I am also interested in harnessing the present and future capabilities of artificial intelligence models whose outputs are considered “creative” if performed by humans. I aim to leverage the artificial creativity to unleash the human creative potential in the areas of literature, music (sequential inputs), and artistry and come up with new forms of creativity that are currently unattainable by humans alone. 
+        p I am also interested in harnessing the present and future capabilities of artificial intelligence models whose outputs are considered “creative” if performed by humans. Talking about my research in general, I have an expertise in Computer vision and machine learning. Therefore, most suitable direction I consider for myself is to leverage vision techniques in unleasing the human creative potential. I'm open to explore the natural language processing techniques for creating creative content in the areas of literature, music (sequential inputs), and artistry and come up with new forms of creativity that are currently unattainable by humans alone. 
         br
         p To summarize, my research interests are as follows:
         ul
           li Machine learning
+          li Computer vision
           li AutoML - Neural architecture search
           li Deep learning
-          li Generative modelling
-          li Computer vision
           li Evolutionary algorithms
+
+    //- Publications
+    .card
+      .card-content
+        h4.brown-text.light Publications
+        .row
+        ul
+          li S. Verma et al. (2020), "Evolving Genetic Programming Trees in a Rule-Based Learning Framework". Genetic and Evolutionary Computation Conference Companion (GECCO ’20) Cancún, Mexico. ACM, New York, USA, pp. 1-2.
+          li  S. Nagpal, S. Verma, S. Gupta and S. Aggarwal (2020), "A Guided Learning Approach for GANs". International Joint Conference on Neural Networks, IJCNN 2020 Glasgow, UK, 2020. https://git.io/guided-gan. IEEE, pp. 1–8.
+          li S. Jain, S. Verma, S. Kumar and S. Aggarwal (2018), "An Evolutionary Learning Approach to Play Othello Using XCS" IEEE Congress on Evolutionary Computation (CEC), Rio de Janeiro, Brazil, 2018, pp. 1-8.
 
     //- Research Activities
     .card
       .card-content
-        h4.brown-text.light Recent Highlights
-        //- .row.text-center
+        h4.brown-text.light Highlights
+        br
+        .row
+          .col.s12.m9
+            a.blue-text.text-darken-4.hoverline(href='https://gecco-2020.sigevo.org/', target='_blank') The Genetic and Evolutionary Computation Conference (GECCO), 2020
+          .col.s12.m3
+            .blue-text.text-darken-4   Electronic-only Conference
+        ul
+          li Our work on "Evolving genetic programming trees in a rule-based learning framework" was presented and published in GECCO 2020.
+          li The extended abstract of our work can be found
+            a.blue-text.text-darken-4.hoverline(href='https://dl.acm.org/doi/abs/10.1145/3377929.3390071', target='') here.
+          li Created this poster explaining our approach (Presented in the conference):
+          img.responsive-img(alt='', src='static/img/gecco_poster.jpeg')
+        br
+
         br
         .row
           .col.s12.m9
