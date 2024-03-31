@@ -398,6 +398,17 @@ small { display: none;}
     top: initial;
 	}
 }
+@media (orientation: landscape){
+	#intro.section {
+	background: url(../../static/img/siddharth-verma-landscape.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	}
+	#experience .card-title{
+    margin-left: 0px;
+	}
+}
 @media (max-width: 992px) and (orientation: portrait){
 	#intro.section {
 	background: url(../../static/img/siddharth-verma-small.jpg) no-repeat;
